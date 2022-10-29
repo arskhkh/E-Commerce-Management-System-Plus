@@ -69,6 +69,10 @@ import {
     Pagination,
     Dialog,
     MessageBox,
+    Tag,
+    Tree,
+    Select,
+    Option,
 } from 'element-ui'
 
 let plugins = [
@@ -89,6 +93,10 @@ let plugins = [
     Tooltip,
     Pagination,
     Dialog,
+    Tag,
+    Tree,
+    Select,
+    Option,
 ]
 
 export default function getElementUI() {
