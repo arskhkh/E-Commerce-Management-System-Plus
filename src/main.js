@@ -7,6 +7,8 @@ import router from './router'
 import './assets/css/gobal.css'
 //导入字体图标样式
 import './assets/fonts/iconfont.css'
+//导入树形插件
+import ZKTable from 'vue-table-with-tree-grid'
 
 import axios from 'axios'
 //配置请求根路径
@@ -24,6 +26,9 @@ Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
 getElementUI()
+
+//注册为全局可用组件
+Vue.component('tree-table', ZKTable)
 
 new Vue({
   router,  //挂载路由

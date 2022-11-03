@@ -24,3 +24,8 @@ body,
 .el-pagination {
     margin-top: 15px;
 }
+
+/* 改变级联选择器高度 */
+.el-cascader-menu {
+    height: 300px;
+}

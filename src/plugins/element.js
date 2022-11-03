@@ -73,6 +73,7 @@ import {
     Tree,
     Select,
     Option,
+    Cascader,
 } from 'element-ui'
 
 let plugins = [
@@ -97,6 +98,7 @@ let plugins = [
     Tree,
     Select,
     Option,
+    Cascader,
 ]
 
 export default function getElementUI() {
