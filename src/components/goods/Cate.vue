@@ -111,13 +111,11 @@
       </el-dialog>
 
       <!-- 修改分类对话框 -->
-      <!-- 添加分类对话框 -->
       <el-dialog
         title="添加商品分类"
         :visible.sync="editCateDialogVisible"
         width="50%"
       >
-        <!-- 添加内容 -->
         <el-form
           :model="addCateForm"
           :rules="addCateFormRules"

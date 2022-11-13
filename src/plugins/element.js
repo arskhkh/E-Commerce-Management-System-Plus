@@ -74,6 +74,9 @@ import {
     Select,
     Option,
     Cascader,
+    Alert,
+    Tabs,
+    TabPane,
 } from 'element-ui'
 
 let plugins = [
@@ -99,6 +102,9 @@ let plugins = [
     Select,
     Option,
     Cascader,
+    Alert,
+    Tabs,
+    TabPane,
 ]
 
 export default function getElementUI() {
